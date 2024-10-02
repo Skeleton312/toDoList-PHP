@@ -88,6 +88,11 @@
                                             <span class="text-success rounded p-0.7">Selesai</span>
                                         </div>
                                         <div>
+                                            <?php
+                                                echo '<a href="deleteTugas.php?delete=' . $index . '" type="button" class="btn btn-outline-danger">
+                                                <img style="width: 18px;" src="https://img.icons8.com/?size=100&id=99933&format=png&color=000000" />
+                                            </a>'; 
+                                            ?>
                                             <button type="button" class="btn btn-info"><span class="fa fa-star" style="color: white"><?php echo $user['level']?></span></button>
                                         </div>
                                     </li>
